@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,800,600,200);
+
+body {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  line-height: 28px;
+  color: #252525;
+  margin-bottom: 24px;
+  overflow-x: hidden;
+}
+
+li.lista {
+  display: block;
+}
+
+header {
+  background: url("imagenes/cabecera_gijon.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 10px;
+  padding: 10px;
+  height: 400px;
+}
+
+.indice ul {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  margin: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase
+}
+
+li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+  color: white;
+  padding: 9px 18px;
+}
+
+a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; 
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: #252525;
+  padding: 10px;
+  margin: 10px;
+  text-indent: 20px;
+}
+
+h3 {
+  font-family: Georgia, serif;
+  font-weight: bold; 
+  font-size: 20px;
+  color: #252525;
+  padding: 10px;
+  margin: 10px;
+  text-indent: 20px;
+}
+
+.introduccion, .educacion {
+  background: #ECECE3;
+  margin: 10px;
+  padding: 10px;
+}
+
+.toponimia, .camino {
+  background: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+p {
+	font-family: Georgia, serif;
+  font-size: 17px;
+  line-height: 28px;
+  color: #252525;
+  padding: 10px;
+  margin: 10px;
+  text-indent: 20px;
+}
+
+.imagen1, .imagen3 {
+  float: right;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.imagen2 {
+  float: left;
+  margin: 10px;
+  padding: 10px
+}
+
+a:link.enlace, a:visited.enlace, a:hover.enlace {
+	text-decoration: none;
+  color: rgba(38, 38, 38, 0.8);
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+}
